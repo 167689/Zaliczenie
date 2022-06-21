@@ -10,9 +10,9 @@ class Main {
     tekstodw=tekst.toCharArray();
     
 
-   for(int i = tekst.length(); i>0; i--) 
+   for(int i = tekst.length()-1; i>=0; i--) 
    {
-     System.out.println(tekstodw[i]);
+     System.out.print(tekstodw[i]);
    }
     
     input.close();
